@@ -11,12 +11,13 @@ html{
 /*Navbar*/
 
 .navbar{
-    display: flex;
-    justify-content: center;
+ display: flex;
+    justify-content: space-around;
     align-items: center;
     background-color:rgba(0, 0, 0, 0.5);
-    position: sticky;
+    position: relative;
     top: 0;
+    flex-wrap: wrap;
 }
 
 .navbar ul{
@@ -181,7 +182,7 @@ html{
     display: flex;
     flex-direction: column;
     width: 350px;
-    height: 450px;
+    min-height: 468px;
     border: 1px solid black;
     margin: 10px;
     align-items: center;
